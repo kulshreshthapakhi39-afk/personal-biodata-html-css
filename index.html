@@ -1,16 +1,60 @@
-<!DOCTYPE html>
+<!DOCTYPE html>>
 <html>
+    <head>
+        <title>My portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>My portfolio</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="Projects">Projects</a>
+                <a href="#contacts">Contacts</a>
+            </nav>
+        </header>
+        <section id="About" class="About">
+            <h2>About Me</h2>
+            <p>hello I'm Pakhi Kulshreshtha, a passionate developer. I love creating beautiful and functional websites
+                and applications. My goal is to deliver high-quality work and constantly learn new technologies
+            </p>
+        </section>
 
-<head>
-    <title>Persnol Data</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+        <section id="skills" class="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVA SCRIPT</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>python</li>
+            </ul>
+        </section>
+        <section id="Projects" class="Projects">
+            <h2>Projects</h2>
+            <div class="Project-item">
+                <h3>Project1</h3>
+                <p>Description of your project.<a href="#">view project</a></p>
+            </div>
+            <div class="Project-item">
+                <h3>Project2</h3>
+                <p>Description of your project.<a href="#">view project</a></p>
+            </div>
 
-<body>
-    <h1>Pakhi kulshreshtha</h1>
-    <img src="nature1.jpg" height="200px" width="200px" />
-    <img src="./assest/images/nature2.jpg" height="200px" width="200px" />
-
-</body>
-
+        </section>
+        <section id="contact" class="contact">
+            <h2>contact me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="6" placeholder="Your Message" required></textarea>
+                <button type="submit">send Message</button>
+            </form>
+        </section>
+        <footer>
+            <p>Scopy;2025[pakhi Kulshreshtha].All rights reserved</p>
+        </footer>
+    </body>
 </html>
